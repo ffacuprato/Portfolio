@@ -1,0 +1,14 @@
+.sobre-mi{
+    padding: 3rem 3rem;
+    background-color: #4B4B4B;
+}
+.sobre-mi-titulo{
+    font: 1.75rem sans-serif;
+    color: white;
+}
+.sobre-mi-parrafo{
+    font: 1.20rem sans-serif;
+    margin-top: 0.75rem;
+    line-height: 1.75rem;
+    color: white;
+}

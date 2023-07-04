@@ -1,0 +1,10 @@
+.contacto-imagen{
+    width: 40%;
+    background: url(../../img/contact_image.png) no-repeat;
+    background-size: contain;
+}
+@media (min-width:430px) and (max-width:768px) {
+    .contacto-imagen{
+        width: 0%;
+    }
+}

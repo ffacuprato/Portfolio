@@ -1,0 +1,37 @@
+.formacion-academica-lista-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+.formacion-academica-lista-imagen.ingenieria{
+    height: 20rem;
+    width: 100%;
+    background: url(../../img/fing.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position-x: center;
+}
+.formacion-academica-lista-imagen.oracle-one{
+    height: 20rem;
+    width: 100%;
+    background: url(../../img/Oracle-ONE.jpg) no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position:center center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.formacion-academica-lista-titulo{
+    font: 1.15rem sans-serif;
+    font-weight: 600;
+}
+.formacion-academica-lista-titulo:hover{
+    font-size: larger;
+}
+.formacion-academica-lista-descripcion{
+    font: normal 1.1rem sans-serif;
+}

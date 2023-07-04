@@ -1,0 +1,44 @@
+.hobbies-lista{
+    display: flex;
+    justify-content: space-between;
+    font: 1.5rem sans-serif;
+    margin-top: 3rem;
+}
+.hobbies-lista-container{
+    width: 11rem;
+    height: 10.875rem;
+}
+.hobbies-lista-item{
+    position: relative;
+    top: 80%;
+    text-align: center;}
+.musica{
+    background: url(../../img/musica.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}
+.basket{
+    background: url(../../img/basket.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}
+.surf{
+    background: url(../../img/surf.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}
+.cafe{
+    background: url(../../img/cafe.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}
+.cocina{
+    background: url(../../img/cocina.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}
+.fotografia{
+    background: url(../../img/foto.png) no-repeat;
+    background-position: center top;
+    background-size: 70%;
+}

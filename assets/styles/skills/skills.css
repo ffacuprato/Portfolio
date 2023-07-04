@@ -1,0 +1,12 @@
+.skills{
+    padding: 3rem 3rem;
+    background-color: #4B4B4B;
+}
+.skills-title{
+    text-align: center;
+    font: 2rem sans-serif;
+    color: white;
+}
+.skills-lista-item{
+    color: slategray;
+}

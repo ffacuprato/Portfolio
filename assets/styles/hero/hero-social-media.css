@@ -1,0 +1,15 @@
+.social-media{
+    display: flex;
+    justify-content: left;
+    font: 1.25rem sans-serif;
+}
+.social-media-li {
+    margin-right: 1.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: grey;
+}
+.social-media-li:hover{
+    color: lightgray;
+    font-size: large;
+}

@@ -1,0 +1,11 @@
+.formacion-academica{
+    padding: 3rem 3rem;
+    background-color: lightgray;
+
+}
+.formacion-academica-titulo{
+    text-align: center;
+    font: 2rem sans-serif;
+}
+@media (min-width:430px) and (max-width:768px) {
+}

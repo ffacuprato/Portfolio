@@ -1,0 +1,37 @@
+.skills-lista{
+    display: flex;
+    justify-content: space-between;
+    font: 1.5rem sans-serif;
+    margin-top: 3rem;
+}
+.skills-lista-container{
+    width: 11rem;
+    height: 10.875rem;
+}
+.skills-lista-item{
+    position: relative;
+    top: 80%;
+    text-align: center;
+    vertical-align: middle;
+}
+.html5{
+    background: url(../../img/html5_318-225260.avif) no-repeat ;
+    background-position: center top;
+    background-size: 70%;
+}
+.css3{
+    background: url(../../img/css3hd.png) no-repeat ;
+    background-position: center top;
+    background-size: 77%;
+}
+.javascript{
+    background: url(../../img/jshd.png) no-repeat ;
+    background-position: center top;
+    background-size: 140%;
+
+}
+.git{
+    background: url(../../img/git.png) no-repeat ;
+    background-position: center top;
+    background-size: 73%;
+}

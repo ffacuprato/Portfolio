@@ -1,0 +1,6 @@
+.contacto{
+    padding: 3rem 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: whitesmoke;
+}

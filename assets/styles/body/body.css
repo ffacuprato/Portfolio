@@ -1,0 +1,4 @@
+.container-ppal{
+    display: flex;
+    flex-direction: column;
+}

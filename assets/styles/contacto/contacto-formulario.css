@@ -1,0 +1,66 @@
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 40%;
+    height: 40rem;
+}
+.contacto-form-titulo{
+    font: 600 2rem sans-serif;
+    margin-bottom: 0.75rem;
+}
+.contacto-form-texto{
+    font: 1.15rem sans-serif;
+    margin-bottom: 0.75rem;
+
+}
+.contacto-form-input{
+    font: 1.10rem sans-serif;
+    font-weight: lighter;
+    width: 100%;
+    margin-bottom: 1.15rem;
+    align-items: top;
+}
+label{
+    font-family: sans-serif;
+    margin-bottom: 0.5rem;
+}
+.contacto-form-input.nombre{
+    height: 1.75rem;
+    border-radius: 5px;
+    border: none;
+}
+.contacto-form-input.email{
+    height: 1.75rem;
+    border-radius: 5px;
+    border: none;
+
+}
+.contacto-form-input.asunto{
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+}
+.contacto-form-input.mensaje{
+    height: 6rem;
+    border-radius: 5px;
+    border: none;
+}
+.contacto-form-input.boton{
+    height: 3rem;
+    width: 15rem;
+    background-color:dimgray;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    transition: .5s;
+}
+.contacto-form-input.boton:hover{
+    background-color: grey;
+    font-size: 1.35rem;
+}
+@media (min-width:430px) and (max-width:768px) {
+    .contacto-form{
+        width: 100%;
+    }
+}
