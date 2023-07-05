@@ -59,8 +59,9 @@ label{
     background-color: grey;
     font-size: 1.35rem;
 }
-@media (min-width:430px) and (max-width:768px) {
+@media (max-width:768px) {
     .contacto-form{
         width: 100%;
+        padding: 0;
     }
 }

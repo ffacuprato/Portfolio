@@ -13,7 +13,7 @@
     color: white;
     padding: 2rem 0;
 }
-@media (min-width:430px) and (max-width:768px){
+@media (max-width:768px) {
     .home{
         padding: 0;
     }

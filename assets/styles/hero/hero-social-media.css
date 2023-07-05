@@ -9,7 +9,26 @@
     text-decoration: none;
     color: grey;
 }
+h2{
+    display: flex;
+    flex-direction: column;
+}
 .social-media-li:hover{
     color: lightgray;
     font-size: large;
+}
+@media (min-width:430px) and (max-width:768px){
+    .social-media{
+        justify-content: space-evenly;
+    }
+    .social-media-li{
+        margin-right: 0;
+    }
+}
+@media (max-width:430px){
+    .social-media{
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+    }
 }

@@ -4,3 +4,8 @@
     justify-content: space-evenly;
     background-color: whitesmoke;
 }
+@media (max-width:430px){
+    .contacto{
+        padding: 1rem;
+    }
+}

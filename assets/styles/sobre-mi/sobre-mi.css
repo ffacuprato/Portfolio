@@ -12,3 +12,8 @@
     line-height: 1.75rem;
     color: white;
 }
+@media (max-width:430px){
+    .sobre-mi{
+        padding: 1rem;
+    }
+}

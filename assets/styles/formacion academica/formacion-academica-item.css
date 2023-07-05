@@ -35,3 +35,12 @@ a{
 .formacion-academica-lista-descripcion{
     font: normal 1.1rem sans-serif;
 }
+@media (max-width:430px){
+    .formacion-academica-lista-imagen.ingenieria{
+        height: 10rem;
+    }
+    .formacion-academica-lista-imagen.oracle-one{
+        height: 10rem;
+    }
+
+}

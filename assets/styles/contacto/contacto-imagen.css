@@ -3,7 +3,7 @@
     background: url(../../img/contact_image.png) no-repeat;
     background-size: contain;
 }
-@media (min-width:430px) and (max-width:768px) {
+@media (max-width:768px) {
     .contacto-imagen{
         width: 0%;
     }

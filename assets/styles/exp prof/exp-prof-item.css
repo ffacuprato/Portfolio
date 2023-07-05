@@ -50,7 +50,7 @@
     background-color: grey;
     font-size: large;
 }
-@media (min-width:430px) and (max-width:768px){
+@media (max-width:768px){
     .exp-prof-container{
         flex-direction: column;
         height: auto;
@@ -74,5 +74,11 @@
     }
     .buttons{
         margin: 1rem 0;
+    }
+}
+@media (max-width:430px){
+    .exp-prof-img{
+        height: 8rem;
+        background-position-x: center;
     }
 }
