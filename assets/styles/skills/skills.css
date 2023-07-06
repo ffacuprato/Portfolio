@@ -10,6 +10,11 @@
 .skills-lista-item{
     color: slategray;
 }
+@media (max-width:768px){
+    .skills{
+        padding: 1rem;
+    }
+}
 @media (max-width:430px){
     .skills{
         padding: 1rem;

@@ -5,6 +5,7 @@
     margin-top: 3rem;
 }
 .skills-lista-container{
+    border-radius: 10px;
     width: 11rem;
     height: 10.875rem;
 }
@@ -18,22 +19,28 @@
     background: url(../../img/html5_318-225260.avif) no-repeat ;
     background-position: center top;
     background-size: 70%;
+    background-color: lightgray;
 }
 .css3{
     background: url(../../img/css3hd.png) no-repeat ;
     background-position: center top;
     background-size: 77%;
+    background-color: lightgray;
+
 }
 .javascript{
     background: url(../../img/jshd.png) no-repeat ;
     background-position: center top;
     background-size: 140%;
+    background-color: lightgray;
 
 }
 .git{
     background: url(../../img/git.png) no-repeat ;
     background-position: center top;
     background-size: 73%;
+    background-color: lightgray;
+
 }
 @media (max-width:430px){
     .skills-lista{
