@@ -1,7 +1,7 @@
 .exp-prof-lista{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font: 1.5rem sans-serif;
     margin-top: 3rem;
 }

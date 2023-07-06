@@ -1,6 +1,6 @@
 .skills-lista{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font: 1.5rem sans-serif;
     margin-top: 3rem;
 }
