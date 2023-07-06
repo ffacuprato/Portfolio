@@ -22,12 +22,15 @@
     background: url(../../img/encriptador.png) no-repeat;
     background-size: contain;
     border-radius: 15px;
+    background-position-x: center;
 }
 .exp-prof-img.portfolio{
     width: 55%;
     background: url(../../img/portfolio.png) no-repeat;
     background-size: contain;
     border-radius: 15px;
+    background-position-x: center;
+
 }
 .exp-prof-container.portfolio{
     margin-top: 2rem;
@@ -75,16 +78,27 @@
     .exp-prof-descripcion{
         text-align: center;
     }
-    .exp-prof-img{
+    .exp-prof-img.encriptador{
         width: 100%;
         height: 18rem;
     }
+    .exp-prof-img.portfolio{
+        width: 100%;
+        height: 18rem;
+    }
+
     .buttons{
         margin: 1rem 0;
     }
 }
 @media (max-width:430px){
-    .exp-prof-img{
+    .exp-prof-img.encriptador{
+        width: 100%;
+        height: 8rem;
+        background-position-x: center;
+    }
+    .exp-prof-img.portfolio{
+        width: 100%;
         height: 8rem;
         background-position-x: center;
     }
