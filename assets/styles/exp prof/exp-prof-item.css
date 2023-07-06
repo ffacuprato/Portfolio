@@ -17,13 +17,20 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.exp-prof-img{
+.exp-prof-img.encriptador{
     width: 55%;
     background: url(../../img/encriptador.png) no-repeat;
     background-size: contain;
     border-radius: 15px;
 }
+.exp-prof-img.portfolio{
+    width: 55%;
+    background: url(../../img/portfolio.png) no-repeat;
+    background-size: contain;
+    border-radius: 15px;
+}
 .exp-prof-container.portfolio{
+    margin-top: 2rem;
     flex-direction: row-reverse;
     margin-top: 1.75rem;
 }
