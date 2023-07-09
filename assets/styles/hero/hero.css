@@ -5,6 +5,9 @@
     height: 15rem;
     padding: 3rem 3rem;
     background-color: #4B4B4B;
+    background-image: url(../../img/coder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 @media (max-width:768px){
     .hero{
