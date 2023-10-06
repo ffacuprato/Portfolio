@@ -1,6 +1,6 @@
 .exp-prof-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 20rem;
 }
 .exp-prof-proyecto-title{
@@ -31,6 +31,13 @@
     border-radius: 15px;
     background-position-x: center;
 
+}
+.exp-prof-img.streaming{
+    width: 55%;
+    background: url(../../img/facuflix.png) no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    background-position-x: center;
 }
 .exp-prof-container.portfolio{
     margin-top: 2rem;
